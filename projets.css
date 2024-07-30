@@ -1,0 +1,140 @@
+{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100px;
+    background-color: yellowgreen;
+    margin: 10px;
+    padding: 19px;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #fff;
+}
+ul li a:hover{
+    color: yellowgreen:
+}
+.menu li{
+    float: left;
+    padding:35px;
+}
+form{
+    text-align: right;
+    padding: 35px;
+}
+input[type="search"]{
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px:
+}
+.banner{
+    background-image: url("i/ie.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30%;
+    max-height: 30%;
+    padding: 15%;
+}
+.btn{
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    color: beige;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #ffdd22;
+    color: black;
+    }
+.services{
+    margin: 5px;
+    padding:15px;
+    background-color: yellowgreen;
+    }
+.services h2{
+     margin: 10px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    color: #fff;
+}
+#services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    }
+.box{
+    background-color: yellowgreen;
+    padding: 30px;
+    border-radius: 5px;
+    }
+.box img{
+    width: 250px;
+    border-radius: 5px;
+    padding: 2px;
+    display: inline-block;
+    margin: 0 auto;
+    
+    }
+      /*furmulaire*/
+.container {
+    background-color: white;
+    padding: 20px;
+     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    }
+
+    input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+    }
+
+    button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    button:hover {
+    background-color: #45a049;
+    }
+    footer p {
+        display: flex;
+        align-items: center;
+        margin: 0 20px;
+        background-color: yellowgreen;
+    }
+
+    footer i {
+        margin-right: 5px;
+        font-size: 18px;
+    }

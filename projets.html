@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bazar.</title>
+    <link rel="stylesheet" href="projets.css">
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="logo">Bazar.</a>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Apropos</a></li>
+            </ul>
+        </nav>
+        <form>
+            <input type="search"  placeholder="Recherche">
+        </form>
+    </div>
+    <!--fin menu-->
+    <section class="banner">
+        <h1>Mon portfolio</h1>
+        <p> Bazar. un site de vente en ligne qui vous propose différent type de model sur la technologie</p>
+        <a href="#" class="bnt">Contactez moi!</a>
+    </section>
+     <!--fin section-->
+     <section class="services">
+        <h2>Services</h2>
+        <div class="box">
+            <img src="i/i0.jpg" alt="">
+            <h3>Téléphone portable</h3>
+            <p>Des smartphones performants haute gamme pour profiter d'une expérience multimédia époustouflante</p>
+        </div>
+        <div class="box">
+            <img src="i/i1.jpg" alt="">
+            <h3>Tablette</h3>
+            <p>Des tablettes polyvalentes pour tous vos besoins</p>
+        </div>
+        <div class="box">
+            <img src="i/i2.jpg" alt="">
+            <h3>Ordinateurs portable</h3>
+            <p>Des ordinateurs portable puissants et polyvalents pour tous vos besoins</p>
+        </div>
+        <div class="box">
+            <img src="i/i3.jpeg" alt="">
+            <h3>casque audio</h3>
+            <p>Nos casques audio sont conçus pour offrir une qualité sonore exceptionnelle</p>
+        </div>
+        <div class="box">
+            <img src="i/i4.jpeg" alt="">
+            <h3>Airpod</h3>
+            <p>Des écouteurs sans fil ultra-performants pour une liberté totale</p>
+        </div>
+        <div class="box">
+            <img src="i/i5.jpg" alt="">
+            <h3>Manette de jeu</h3>
+            <p>Des manettes de jeu haut de gamme pour une expérience de jeu ultime</p>
+        </div>
+        <div class="box">
+            <img src="i/i6.webp" alt="">
+            <h3>playstation</h3>
+            <p>La PlayStation est la console de jeu par excellence pour vivre des aventures épiques</p> 
+            <p>découvrir des mondes fascinants et partager des moments de jeu inoubliables.</p>
+        </div>
+    </section>
+        <!--fin section-->
+        <section class="container">
+            <h2>Contactez-nous</h2>
+            <form action="envoyer_message.php" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+    
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+    
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+    
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <footer>
+            <p><i class="fas fa-clock"></i> Heures d'ouverture : Lundi au Vendredi 24/24</p>
+            <p><i class="fas fa-map-marker-alt"></i> Adresse : dieupeul </p>
+            <p><i class="fas fa-phone"></i> Téléphone :77891004</p>
+        </footer>
+</body>
+</html>
